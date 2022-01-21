@@ -1,0 +1,111 @@
+{
+  "name": "Мастер и Маргарита",
+  "author": "ЖУМОНГ",
+  "role_list": [
+    {
+      "name": "Мирный житель",
+      "group": {
+        "name": "norole",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Мастер",
+      "group": {
+        "name": "active",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Маргарита",
+      "group": {
+        "name": "active",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Иван Николаевич Бездомный",
+      "group": {
+        "name": "active",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Понтий Пилат",
+      "group": {
+        "name": "active",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Иешуа Га-Ноцри",
+      "group": {
+        "name": "active",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Наташа",
+      "group": {
+        "name": "active",
+        "faction": 1
+      }
+    },
+    {
+      "name": "Воланд",
+      "group": {
+        "name": "mafia",
+        "faction": 2
+      }
+    },
+    {
+      "name": "Кот Бегемот",
+      "group": {
+        "name": "mafia",
+        "faction": 2
+      }
+    },
+    {
+      "name": "Фагот",
+      "group": {
+        "name": "mafia",
+        "faction": 2
+      }
+    },
+    {
+      "name": "Азазелло",
+      "group": {
+        "name": "mafia",
+        "faction": 2
+      }
+    },
+    {
+      "name": "Гелла",
+      "group": {
+        "name": "mafia",
+        "faction": 2
+      }
+    },
+    {
+      "name": "Арчибальд Арчибальдович",
+      "group": {
+        "name": "neutral",
+        "faction": 3
+      }
+    },
+    {
+      "name": "Артист",
+      "group": {
+        "name": "neutral",
+        "faction": 3
+      }
+    },
+    {
+      "name": "Мафия",
+      "group": {
+        "name": "groupmafia",
+        "faction": 2
+      }
+    }
+  ]
+}
