@@ -501,12 +501,12 @@ var app = (function () {
     			a.textContent = "Svelte tutorial";
     			t7 = text(" to learn how to build Svelte apps.");
     			attr_dev(h1, "class", "svelte-iuw5g1");
-    			add_location(h1, file, 7, 1, 95);
+    			add_location(h1, file, 8, 1, 96);
     			attr_dev(a, "href", "https://svelte.dev/tutorial");
-    			add_location(a, file, 8, 14, 132);
-    			add_location(p, file, 8, 1, 119);
+    			add_location(a, file, 9, 14, 133);
+    			add_location(p, file, 9, 1, 120);
     			attr_dev(main, "class", "svelte-iuw5g1");
-    			add_location(main, file, 6, 0, 87);
+    			add_location(main, file, 7, 0, 88);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

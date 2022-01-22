@@ -79,6 +79,18 @@ class Game:
     player_list: List[Player] = field(default_factory=list)
 
 
+@dataclass_json
+@dataclass
+class GameList:
+    game_list: List[Game]
+
+
+@dataclass_json
+@dataclass
+class SettingList:
+    setting_list: List[Setting]
+
+
 class PDMafiaCrawler:
     def __init__(self) -> None:
         self.base_url = "http://pdmafia.com"
@@ -161,10 +173,16 @@ class PDMafiaCrawler:
 if __name__ == "__main__":
     crawler = PDMafiaCrawler()
 
+    with open(f"public/static/game_list.json", 'w', encoding='utf-8') as f:
+        f.write(GameList(game_list=crawler.get_game_list()).to_json(ensure_ascii=False))
+
+    with open(f"public/static/setting_list.json", 'w', encoding='utf-8') as f:
+        f.write(SettingList(setting_list=crawler.get_setting_list()).to_json(ensure_ascii=False))
+
     # for setting_id, setting in crawler.get_setting_list():
     #     with open(f"test/static/settings/{setting_id}.json", 'w', encoding='utf-8') as f:
     #         f.write(setting.to_json(ensure_ascii=False))
 
-    for game in crawler.get_game_list():
-        with open(f"test/static/games/{game.prodota_id}.json", 'w', encoding='utf-8') as f:
-            f.write(game.to_json(ensure_ascii=False))
+    # for game in crawler.get_game_list():
+    #     with open(f"test/static/games/{game.prodota_id}.json", 'w', encoding='utf-8') as f:
+    #         f.write(game.to_json(ensure_ascii=False))
