@@ -8,9 +8,11 @@
 	export let url = "";
 </script>
 
-<Router {url}>
-	<div>
-		<Route path="/" component={Home} />
-		<Route path="settings" component={Settings} />
-	</div>
-</Router>
+<Navbar />
+<main>
+	<h1>Hello HOMEPAGE!</h1>
+	<p>
+		Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
+		how to build Svelte apps.
+	</p>
+</main>
