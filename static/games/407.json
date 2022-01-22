@@ -1,0 +1,224 @@
+{
+  "prodota_id": 407,
+  "pdmafia_id": 385,
+  "name": "Мафия №407 - Левиосааааааа. Митинг в честь Блэт, нейтрального",
+  "setting_name": "Гарри Поттер 2019",
+  "host": "OMGVERYLONGNAME",
+  "time_str": "2019-07-28 21:57:00",
+  "day_count": "6 дней",
+  "tags": [
+    "Мафия"
+  ],
+  "faction_winner_list": [
+    "mafia"
+  ],
+  "player_list": [
+    {
+      "name": "Gram4eg",
+      "role_name": "Хвост",
+      "status": {
+        "exit_day_number": "2",
+        "exit_reason": "Убит мафией",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "Whats_Up4you",
+      "role_name": "Сохатый",
+      "status": {
+        "exit_day_number": "2",
+        "exit_reason": "Выгнан",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "Francyz",
+      "role_name": "Бродяга",
+      "status": {
+        "exit_day_number": "1",
+        "exit_reason": "Выгнан",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "Roatoupskill",
+      "role_name": "Мафия",
+      "status": {
+        "exit_day_number": "4",
+        "exit_reason": "Убит маньяком",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "Leibster",
+      "role_name": "Мафия",
+      "status": {
+        "exit_day_number": "4",
+        "exit_reason": "Умер в клетке",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "pnanrkotikivj",
+      "role_name": "Мафия",
+      "status": {
+        "exit_day_number": "3",
+        "exit_reason": "Выгнан",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "healms",
+      "role_name": "Маньяк",
+      "status": {
+        "exit_day_number": "5",
+        "exit_reason": "Убит мафией",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "NaniQue-",
+      "role_name": "Призрак-дементор",
+      "status": {
+        "exit_day_number": "5",
+        "exit_reason": "Умер",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "ЖУМОНГ",
+      "role_name": "Призрак-дементор",
+      "status": {
+        "exit_day_number": "5",
+        "exit_reason": "Умер",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "BRA_HAYFA",
+      "role_name": "Призрак-дементор",
+      "status": {
+        "exit_day_number": "5",
+        "exit_reason": "Выгнан",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "3JI0U",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "6",
+        "exit_reason": "Выгнан",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "dispersion",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "6",
+        "exit_reason": "Умер",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "paragon",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "6",
+        "exit_reason": "Умер",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "Bararym",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "4",
+        "exit_reason": "Убит мафией",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "PanDuck",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "4",
+        "exit_reason": "Выгнан",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "Desp",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "3",
+        "exit_reason": "Убит маньяком",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "Esper",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "3",
+        "exit_reason": "Убит мафией",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "Cryless",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "3",
+        "exit_reason": "Убит мафией",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "ZombBomb",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "3",
+        "exit_reason": "Умер",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "CorvusCorax",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "2",
+        "exit_reason": "Молния",
+        "exit_frame": "День"
+      }
+    },
+    {
+      "name": "R0ss0ha",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "1",
+        "exit_reason": "Убит активом",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "toouur",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "1",
+        "exit_reason": "Убит мафией",
+        "exit_frame": "Ночь"
+      }
+    },
+    {
+      "name": "iMbanana",
+      "role_name": "Мирный житель",
+      "status": {
+        "exit_day_number": "1",
+        "exit_reason": "Молния",
+        "exit_frame": "День"
+      }
+    }
+  ]
+}
