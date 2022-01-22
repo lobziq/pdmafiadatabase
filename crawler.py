@@ -43,6 +43,7 @@ class Role:
 @dataclass_json
 @dataclass
 class Setting:
+    pdmafia_id: int
     name: str
     author: str
     role_list: List[Role] = field(default_factory=list)
@@ -102,20 +103,20 @@ class PDMafiaCrawler:
         html = HTML(str(soup))
         return soup, html
 
-    def get_setting_list(self) -> List[Tuple[int, Setting]]:
+    def get_setting_list(self) -> List[Setting]:
         setting_list = list()
         soup, html = self.get_url_soup(f"/settings")
         for element in set([e for e in soup.find_all("a") if e["href"] and "/settings/" in e["href"]]):
             setting_url = str(element["href"])
             setting_id = int(setting_url.split('/')[-1])
             setting_name = element.get_text()
-            setting_list.append((setting_id, self.get_setting(setting_id, setting_name)))
+            setting_list.append(self.get_setting(setting_id, setting_name))
         return setting_list
 
     def get_setting(self, setting_id: int, setting_name: Optional[str] = None) -> Setting:
         soup, html = self.get_url_soup(f"/settings/{setting_id}")
         author = html.xpath("/html/body/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[1]/td[2]/a")[0].text
-        setting = Setting(name=setting_name if setting_name else f"Сеттинг {setting_id}", author=author)
+        setting = Setting(pdmafia_id=setting_id, name=setting_name if setting_name else f"Сеттинг {setting_id}", author=author)
 
         for element in [e for e in soup.find_all("span", class_=lambda t: t.startswith("faction") if t else None) if e]:
             clean_text = "".join(element.stripped_strings).replace(',', '')
